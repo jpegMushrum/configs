@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REPO_URL="https://github.com/jpegMushrum/configs.git"
+REPO_URL="https://github.com/jpegMushrum/Dotfiles.git"
 REPO_NAME="$(basename "$REPO_URL" .git)"
 CONFIG_DIR="$HOME/.config"
 BACKUP_DIR="$HOME/.config-backup-$(date +%Y%m%d_%H%M%S)"
