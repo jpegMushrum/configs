@@ -2,6 +2,8 @@
 
 REPO_URL="https://github.com/jpegMushrum/Dotfiles.git"
 REPO_NAME="$(basename "$REPO_URL" .git)"
+BRANCH="release/wo-quick-shell"
+
 CONFIG_DIR="$HOME/.config"
 BACKUP_DIR="$HOME/.config-backup-$(date +%Y%m%d_%H%M%S)"
 TEMP_DIR="/tmp/$REPO_NAME-$(date +%s)"
@@ -24,7 +26,7 @@ else
 	echo "Папка .config не существует, пропускаем резервное копирование."
 fi
 
-if git clone --depth 1 "$REPO_URL" "$TEMP_DIR" 2>/dev/null; then
+if git clone --depth 1 --branch "$BRANCH" --single-branch "$REPO_URL" "$TEMP_DIR" 2>/dev/null; then
 	echo "Репозиторий успешно склонирован"
 else
 	echo "Не удалось клонировать репозиторий. Проверьте URL: $REPO_URL"
