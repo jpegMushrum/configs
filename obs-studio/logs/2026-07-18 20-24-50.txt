@@ -1,0 +1,318 @@
+20:24:50.031: Platform: Wayland
+20:24:50.031: CPU Name: AMD Ryzen 9 7940HS w/ Radeon 780M Graphics
+20:24:50.031: CPU Speed: 2340.768MHz
+20:24:50.032: Physical Cores: 8, Logical Cores: 16
+20:24:50.032: Physical Memory: 15193MB Total, 4899MB Free
+20:24:50.032: Kernel Version: Linux 7.1.3-arch2-2
+20:24:50.032: Distribution: "Arch Linux" Unknown
+20:24:50.032: Desktop Environment: niri
+20:24:50.032: Session Type: wayland
+20:24:50.033: Current Date/Time: 2026-07-18, 08:24:50 PM
+20:24:50.033: Browser Hardware Acceleration: true
+20:24:50.033: Qt Version: 6.11.1 (runtime), 6.11.1 (compiled)
+20:24:50.033: Portable mode: false
+20:24:50.054: OBS 32.1.2 (linux)
+20:24:50.054: ---------------------------------
+20:24:50.055: ---------------------------------
+20:24:50.055: audio settings reset:
+20:24:50.055: 	samples per sec: 48000
+20:24:50.055: 	speakers:        2
+20:24:50.055: 	max buffering:   960 milliseconds
+20:24:50.055: 	buffering type:  dynamically increasing
+20:24:50.057: ---------------------------------
+20:24:50.057: Initializing OpenGL...
+20:24:50.057: Using EGL/Wayland
+20:24:50.092: Initialized EGL 1.5
+20:24:50.107: Loading up OpenGL on adapter AMD AMD Radeon 780M Graphics (radeonsi, phoenix, ACO, DRM 3.64, 7.1.3-arch2-2)
+20:24:50.107: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 26.1.5-arch1.1, shading language 4.60
+20:24:50.204: ---------------------------------
+20:24:50.204: video settings reset:
+20:24:50.204: 	base resolution:   1920x1080
+20:24:50.204: 	output resolution: 1280x720
+20:24:50.204: 	downscale filter:  Bicubic
+20:24:50.204: 	fps:               30/1
+20:24:50.204: 	format:            NV12
+20:24:50.204: 	YUV mode:          Rec. 709/Partial
+20:24:50.204: NV12 texture support enabled
+20:24:50.204: P010 texture support not available
+20:24:50.206: Audio monitoring device:
+20:24:50.206: 	name: Default
+20:24:50.206: 	id: default
+20:24:50.208: ---------------------------------
+20:24:50.209: Failed to load 'en-US' text for module: 'decklink-captions.so'
+20:24:50.210: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+20:24:50.211: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+20:24:50.211: Failed to initialize module 'decklink.so'
+20:24:50.295: [pipewire] Available capture sources:
+20:24:50.295: [pipewire]     - Monitor source
+20:24:50.295: [pipewire]     - Window source
+20:24:50.304: v4l2loopback not installed, virtual camera not registered
+20:24:52.286: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+20:24:52.291: VAAPI: API version 1.24
+20:24:52.293: FFmpeg VAAPI H264 encoding supported
+20:24:52.401: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+20:24:52.407: FFmpeg VAAPI AV1 encoding supported
+20:24:52.529: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+20:24:52.535: FFmpeg VAAPI HEVC encoding supported
+20:24:52.539: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+20:24:52.539: 
+20:24:52.539: NVENC not supported
+20:24:52.539: Failed to initialize module 'obs-nvenc.so'
+20:24:52.679: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.7.3 | RPC Version: 1)
+20:24:52.679: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.11.1 | Qt version (run-time): 6.11.1
+20:24:52.679: [obs-websocket] [obs_module_load] Linked ASIO Version: 103800
+20:24:52.679: [obs-websocket] [Config::Load] Existing configuration not found, using defaults.
+20:24:52.679: [obs-websocket] [Config::Load] (FirstLoad) Generating new server password.
+20:24:52.682: [obs-websocket] [obs_module_load] Module loaded.
+20:24:52.684: ---------------------------------
+20:24:52.684:   Loaded Modules:
+20:24:52.684:     text-freetype2.so
+20:24:52.684:     rtmp-services.so
+20:24:52.684:     obs-x264.so
+20:24:52.684:     obs-websocket.so
+20:24:52.684:     obs-webrtc.so
+20:24:52.684:     obs-vst.so
+20:24:52.684:     obs-transitions.so
+20:24:52.684:     obs-qsv11.so
+20:24:52.684:     obs-outputs.so
+20:24:52.684:     obs-libfdk.so
+20:24:52.684:     obs-filters.so
+20:24:52.684:     obs-ffmpeg.so
+20:24:52.684:     linux-v4l2.so
+20:24:52.684:     linux-pulseaudio.so
+20:24:52.684:     linux-pipewire.so
+20:24:52.684:     linux-jack.so
+20:24:52.684:     linux-capture.so
+20:24:52.684:     linux-alsa.so
+20:24:52.684:     image-source.so
+20:24:52.684:     frontend-tools.so
+20:24:52.684:     decklink-output-ui.so
+20:24:52.684:     decklink-captions.so
+20:24:52.684: ---------------------------------
+20:24:52.684: ---------------------------------
+20:24:52.684: Available Encoders:
+20:24:52.684:   Video Encoders:
+20:24:52.684: 	- ffmpeg_svt_av1 (SVT-AV1)
+20:24:52.684: 	- ffmpeg_aom_av1 (AOM AV1)
+20:24:52.684: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+20:24:52.684: 	- av1_ffmpeg_vaapi_tex (FFmpeg VAAPI AV1)
+20:24:52.684: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+20:24:52.684: 	- obs_x264 (x264)
+20:24:52.684:   Audio Encoders:
+20:24:52.684: 	- ffmpeg_aac (FFmpeg AAC)
+20:24:52.684: 	- ffmpeg_opus (FFmpeg Opus)
+20:24:52.684: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+20:24:52.684: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+20:24:52.684: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+20:24:52.684: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+20:24:52.684: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+20:24:52.684: 	- libfdk_aac (libfdk AAC)
+20:24:52.684: ==== Startup complete ===============================================
+20:24:52.687: No scene file found, creating default scene
+20:24:52.724: Failed to register with host portal QDBusError("org.freedesktop.portal.Error.Failed", "Could not register app ID: Connection already associated with an application ID")
+20:24:52.724: All scene data cleared
+20:24:52.724: ------------------------------------------------
+20:24:52.734: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+20:24:52.734: Deduplication logic is being applied to all monitored sources.
+20:24:52.734: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+20:24:52.735: pulse-input: Audio format: s24le, 48000 Hz, 2 channels
+20:24:52.735: pulse-input: Sample format s24le not supported by OBS,using float32le instead for recording
+20:24:52.735: pulse-input: Started recording from 'alsa_output.usb-3142_fifine_Headset-00.analog-stereo.monitor' (default)
+20:24:52.735: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.8) 15.0.0'
+20:24:52.735: pulse-input: Audio format: s24le, 48000 Hz, 1 channels
+20:24:52.735: pulse-input: Sample format s24le not supported by OBS,using float32le instead for recording
+20:24:52.735: pulse-input: Started recording from 'alsa_input.usb-3142_fifine_Headset-00.mono-fallback' (default)
+20:24:52.736: Switched to scene 'Scene'
+20:24:52.736: Created scene collection 'Untitled' (clean, Untitled.json)
+20:24:52.736: ------------------------------------------------
+20:24:52.746: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+20:24:52.746: Deduplication logic is being applied to all monitored sources.
+20:24:53.060: [rtmp-services plugin] Successfully updated file 'services.json' (version 286)
+20:24:53.060: [rtmp-services plugin] Successfully updated package (version 286)
+20:24:53.298: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+20:24:53.298: 
+20:24:53.363: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+20:24:53.363: 
+20:25:04.657: 
+20:25:04.657: ==== Auto-config wizard testing commencing ======
+
+20:25:04.673: ---------------------------------
+20:25:04.674: video settings reset:
+20:25:04.674: 	base resolution:   1920x1080
+20:25:04.674: 	output resolution: 1920x1080
+20:25:04.674: 	downscale filter:  Bicubic
+20:25:04.674: 	fps:               60/1
+20:25:04.674: 	format:            NV12
+20:25:04.674: 	YUV mode:          Rec. 709/Partial
+20:25:04.674: NV12 texture support enabled
+20:25:04.674: P010 texture support not available
+20:25:04.677: Output 'null': Tried to use obs_output_set_media on an encoded output
+20:25:04.677: ---------------------------------
+20:25:04.677: [x264 encoder: 'test_x264'] preset: veryfast
+20:25:04.677: [x264 encoder: 'test_x264'] profile: high
+20:25:04.677: [x264 encoder: 'test_x264'] settings:
+20:25:04.677: 	rate_control: CRF
+20:25:04.677: 	bitrate:      0
+20:25:04.677: 	buffer size:  0
+20:25:04.677: 	crf:          20
+20:25:04.677: 	fps_num:      60
+20:25:04.677: 	fps_den:      1
+20:25:04.677: 	width:        1920
+20:25:04.677: 	height:       1080
+20:25:04.677: 	keyint:       250
+20:25:04.677: 
+20:25:04.689: ---------------------------------
+20:25:04.689: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo, track: 1
+20:25:04.689: 
+20:25:09.690: Output 'null': stopping
+20:25:09.690: Output 'null': Total frames output: 261
+20:25:09.690: Output 'null': Total drawn frames: 300
+20:25:09.763: ---------------------------------
+20:25:09.763: video settings reset:
+20:25:09.763: 	base resolution:   1920x1080
+20:25:09.763: 	output resolution: 1920x1080
+20:25:09.763: 	downscale filter:  Bicubic
+20:25:09.763: 	fps:               30/1
+20:25:09.763: 	format:            NV12
+20:25:09.763: 	YUV mode:          Rec. 709/Partial
+20:25:09.763: NV12 texture support enabled
+20:25:09.763: P010 texture support not available
+20:25:09.764: Output 'null': Tried to use obs_output_set_media on an encoded output
+20:25:09.764: ---------------------------------
+20:25:09.764: [x264 encoder: 'test_x264'] preset: veryfast
+20:25:09.764: [x264 encoder: 'test_x264'] profile: high
+20:25:09.764: [x264 encoder: 'test_x264'] settings:
+20:25:09.764: 	rate_control: CRF
+20:25:09.764: 	bitrate:      0
+20:25:09.764: 	buffer size:  0
+20:25:09.764: 	crf:          20
+20:25:09.764: 	fps_num:      30
+20:25:09.764: 	fps_den:      1
+20:25:09.764: 	width:        1920
+20:25:09.764: 	height:       1080
+20:25:09.764: 	keyint:       250
+20:25:09.764: 
+20:25:09.778: ---------------------------------
+20:25:09.778: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo, track: 1
+20:25:09.778: 
+20:25:14.778: Output 'null': stopping
+20:25:14.778: Output 'null': Total frames output: 111
+20:25:14.778: Output 'null': Total drawn frames: 150
+20:25:14.864: ---------------------------------
+20:25:14.864: video settings reset:
+20:25:14.864: 	base resolution:   1920x1080
+20:25:14.864: 	output resolution: 1280x720
+20:25:14.864: 	downscale filter:  Bicubic
+20:25:14.864: 	fps:               60/1
+20:25:14.864: 	format:            NV12
+20:25:14.864: 	YUV mode:          Rec. 709/Partial
+20:25:14.865: NV12 texture support enabled
+20:25:14.865: P010 texture support not available
+20:25:14.866: Output 'null': Tried to use obs_output_set_media on an encoded output
+20:25:14.866: ---------------------------------
+20:25:14.866: [x264 encoder: 'test_x264'] preset: veryfast
+20:25:14.866: [x264 encoder: 'test_x264'] profile: high
+20:25:14.866: [x264 encoder: 'test_x264'] settings:
+20:25:14.866: 	rate_control: CRF
+20:25:14.866: 	bitrate:      0
+20:25:14.866: 	buffer size:  0
+20:25:14.866: 	crf:          20
+20:25:14.866: 	fps_num:      60
+20:25:14.866: 	fps_den:      1
+20:25:14.866: 	width:        1280
+20:25:14.866: 	height:       720
+20:25:14.866: 	keyint:       250
+20:25:14.866: 
+20:25:14.873: ---------------------------------
+20:25:14.873: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo, track: 1
+20:25:14.873: 
+20:25:19.873: Output 'null': stopping
+20:25:19.873: Output 'null': Total frames output: 263
+20:25:19.873: Output 'null': Total drawn frames: 300
+20:25:19.900: ---------------------------------
+20:25:19.900: video settings reset:
+20:25:19.900: 	base resolution:   1920x1080
+20:25:19.900: 	output resolution: 1280x720
+20:25:19.900: 	downscale filter:  Bicubic
+20:25:19.900: 	fps:               30/1
+20:25:19.900: 	format:            NV12
+20:25:19.900: 	YUV mode:          Rec. 709/Partial
+20:25:19.900: NV12 texture support enabled
+20:25:19.900: P010 texture support not available
+20:25:19.904: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+20:25:19.904: Deduplication logic is being applied to all monitored sources.
+20:25:23.703: ---------------------------------
+20:25:23.703: video settings reset:
+20:25:23.703: 	base resolution:   1920x1080
+20:25:23.703: 	output resolution: 1920x1080
+20:25:23.703: 	downscale filter:  Bicubic
+20:25:23.703: 	fps:               60/1
+20:25:23.703: 	format:            NV12
+20:25:23.703: 	YUV mode:          Rec. 709/Partial
+20:25:23.703: NV12 texture support enabled
+20:25:23.703: P010 texture support not available
+20:25:23.707: 
+20:25:23.707: ==== Auto-config wizard testing stopping ========
+
+20:25:31.964: PipeWire initialized
+20:25:31.966: User added source 'Screen Capture (PipeWire)' (pipewire-screen-capture-source) to scene 'Scene'
+20:25:31.980: [pipewire] Screencast session created
+20:25:31.981: [pipewire] Asking for monitor and window
+20:25:36.936: [pipewire] source selected, setting up screencast
+20:25:36.940: [pipewire] Server version: 1.6.8
+20:25:36.940: [pipewire] Library version: 1.6.8
+20:25:36.940: [pipewire] Header version: 1.6.7
+20:25:36.940: [pipewire] Created stream 0x560be071cce0
+20:25:36.940: [pipewire] Stream 0x560be071cce0 state: "connecting" (error: none)
+20:25:36.940: [pipewire] Playing stream 0x560be071cce0
+20:25:36.940: [pipewire] Stream 0x560be071cce0 state: "paused" (error: none)
+20:25:36.944: [pipewire] Negotiated format:
+20:25:36.944: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+20:25:36.944: [pipewire]     Modifier: 0x0
+20:25:36.944: [pipewire]     Size: 1920x1080
+20:25:36.944: [pipewire]     Framerate: 0/1
+20:25:36.944: [pipewire] Negotiated format:
+20:25:36.944: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+20:25:36.944: [pipewire]     Modifier: 0x20000001046bb04
+20:25:36.944: [pipewire]     Size: 1920x1080
+20:25:36.944: [pipewire]     Framerate: 0/1
+20:25:36.948: [pipewire] Stream 0x560be071cce0 state: "streaming" (error: none)
+20:26:13.431: Settings changed (hotkeys)
+20:26:13.431: ------------------------------------------------
+20:27:13.425: Settings changed (hotkeys)
+20:27:13.425: ------------------------------------------------
+20:27:30.946: Settings changed (hotkeys)
+20:27:30.946: ------------------------------------------------
+20:27:32.858: ---------------------------------
+20:27:32.858: [x264 encoder: 'simple_video_recording'] preset: veryfast
+20:27:32.858: [x264 encoder: 'simple_video_recording'] profile: high
+20:27:32.858: [x264 encoder: 'simple_video_recording'] settings:
+20:27:32.858: 	rate_control: CRF
+20:27:32.858: 	bitrate:      0
+20:27:32.858: 	buffer size:  0
+20:27:32.858: 	crf:          23
+20:27:32.858: 	fps_num:      60
+20:27:32.858: 	fps_den:      1
+20:27:32.858: 	width:        1920
+20:27:32.858: 	height:       1080
+20:27:32.858: 	keyint:       250
+20:27:32.858: 
+20:27:32.877: libfdk_aac encoder created
+20:27:32.877: libfdk_aac bitrate: 192, channels: 2
+20:27:32.878: ==== Recording Start ===============================================
+20:27:32.878: [mp4 output: 'simple_file_output'] Writing Hybrid MP4/MOV file '/home/jpegmushrum/2026-07-18 20-27-32.mp4'...
+20:27:34.325: [mp4 muxer: 'simple_file_output'] Flushing final fragment...
+20:27:34.325: [mp4 muxer: 'simple_file_output'] Number of fragments: 1
+20:27:34.325: [mp4 muxer: 'simple_file_output'] Full moov size: 2 KiB
+20:27:34.325: [mp4 muxer: 'simple_file_output'] Final mdat size: 130 KiB
+20:27:34.325: Output 'simple_file_output': stopping
+20:27:34.325: Output 'simple_file_output': Total frames output: 49
+20:27:34.325: Output 'simple_file_output': Total drawn frames: 87
+20:27:34.325: [mp4 output: 'simple_file_output'] Waiting for file writer to finish...
+20:27:34.326: [mp4 output: 'simple_file_output'] File output complete. Finalization took 0 ms.
+20:27:34.326: ==== Recording Stop ================================================
+20:27:34.336: libfdk_aac encoder destroyed
+20:28:29.546: Settings changed (general, outputs)
+20:28:29.546: ------------------------------------------------
+20:29:31.570: Settings changed (hotkeys)
+20:29:31.570: ------------------------------------------------
