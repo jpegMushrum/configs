@@ -17,5 +17,8 @@ vim.o.shell = "/usr/bin/fish"
 vim.o.winblend = 0
 vim.o.pumblend = 0
 
+-- clipboard
+vim.opt.clipboard = 'unnamedplus'
+
 -- Применяем тему
 require("colors").setup()
