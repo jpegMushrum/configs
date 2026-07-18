@@ -1,9 +1,7 @@
 #!/bin/bash
 
-IFACE="singbox_tun"
-
-if ip link show "$IFACE" >/dev/null 2>&1; then
-    echo '{"text":"󰖂 ","class":"connected"}'
+if ip -o link show | awk -F': ' '{print $2}' | grep -q 'tun'; then
+	echo '{"text":"󰖂 ","class":"connected"}'
 else
-    echo '{"text":"","class":"disconnected"}'
+	echo '{"text":"","class":"disconnected"}'
 fi
