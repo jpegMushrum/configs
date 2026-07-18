@@ -1,6 +1,6 @@
 # Dotfiles
 
-It is my .config files from Arch. 
+It is my .config files from Arch.
 I use Niri, LazyVim, fish + tide and etc.
 I don't use quick shell, I don't know what happen if this config being applied to a system with running quick shell.
 
@@ -10,7 +10,7 @@ I don't use quick shell, I don't know what happen if this config being applied t
 
 ## Screenshots
 
-![desktop_screenshot](./pictures/Screenshot1.png)
+![desktop_screenshot](./pictures/Screenshot2.png)
 
 ## Installation
 
